@@ -7,7 +7,7 @@ public class ExampleGuessingGame {
     public static void main(String[] args) {
         int minRange = 1; // Minimum allowable number that can be guessed
         int maxRange = 10; // Maximum allowable number that can be guessed
-        int userGuess; // Define user guess, cast as integer (aka require that value is a number)
+        int userGuess; // Define user guess as integer (aka require that value is a number)
         boolean shouldGuess = true; // Should the user be able to guess
 
         /*
