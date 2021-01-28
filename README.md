@@ -43,13 +43,13 @@ Let’s add a feature that takes in the user’s name so we can make the message
 Let’s add a feature that asks the user if they want to play again once they’ve made a correct guess. "y" or "yes" will start gameplay again and inversely so with the opposite inputs.
 <br/><br/>
 **Input Example:** 7<br/>
-**Input Example:** Miranda<br/>
-**Output Example:** "Congrats, Miranda! You guessed correctly, the number was 7! Previous guess(es): 5,2,9"<br/>
+**Input Example:** Henry<br/>
+**Output Example:** "Congrats, Henry! You guessed correctly, the number was 7! Previous guess(es): 5,2,9"<br/>
 **Output Example:** "Do you want to play again? (y/n)"<br/>
 **Input Example:** y<br/>
 ...<br/>
 <br/><br/>
-### Feature 7: Guess star. (Leaderboard for subsequent players.)
+### Feature 7: Guess star. (Pseudo-leaderboard for subsequent players.)
 Let’s add a feature that records the number of guesses for each unique guest name that is entered when the game is started. If someone with the same name played before, then when they get a correct answer, it tells them if they beat their previous attempt (less guesses is better). 
 <br/><br/>
 ...<br/>
