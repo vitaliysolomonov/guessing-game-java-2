@@ -61,7 +61,7 @@ Let’s add a feature that records the number of guesses for each unique guest n
 ...<br/>
 **Input Example:** 3<br/>
 **Input Example:** Miranda<br/>
-**Output Example:** "Congrats, Miranda! You guessed incorrectly, try guessing a higher number!"<br/>
+**Output Example:** "Sorry, Miranda! You guessed incorrectly, try guessing a higher number!"<br/>
 **Input Example:** 7<br/>
 **Output Example:** "Congrats, Miranda! You guessed correctly, the number was 7! Previous guess(es): 3. You guessed fewer times than Bob did."<br/>
 **Output Example:** "Do you want to play again? (y/n)"<br/>
