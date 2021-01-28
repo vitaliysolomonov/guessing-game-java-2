@@ -53,9 +53,9 @@ Let’s add a feature that asks the user if they want to play again once they’
 Let’s add a feature that records the number of guesses for each unique guest name that is entered when the game is started. If someone with the same name played before, then when they get a correct answer, it tells them if they beat their previous attempt (less guesses is better). 
 <br/><br/>
 ...<br/>
-**Input Example:** 3<br/>
+**Input Example:** 4<br/>
 **Input Example:** Bob<br/>
-**Output Example:** "Congrats, Bob! You guessed correctly, the number was 3! Previous guess(es): 2,5,6. You didn't beat your previous guess attempt."<br/>
+**Output Example:** "Congrats, Bob! You guessed correctly, the number was 4! Previous guess(es): 2,5,6. You didn't beat your previous guess attempt."<br/>
 **Output Example:** "Do you want to play again? (y/n)"<br/>
 **Input Example:** n<br/>
 ...<br/>
@@ -63,10 +63,9 @@ Let’s add a feature that records the number of guesses for each unique guest n
 **Input Example:** Miranda<br/>
 **Output Example:** "Sorry, Miranda! You guessed incorrectly, try guessing a higher number!"<br/>
 **Input Example:** 7<br/>
-**Output Example:** "Congrats, Miranda! You guessed correctly, the number was 7! Previous guess(es): 3. You guessed fewer times than Bob did."<br/>
+**Output Example:** "Congrats, Miranda! You guessed correctly, the number was 7! Previous guess(es): 3. You guessed fewer times than Bob did!"<br/>
 **Output Example:** "Do you want to play again? (y/n)"<br/>
 **Input Example:** n<br/>
-...<br/>
 <br/><br/>
 ### Have Extra Time? Feel free to add an extra feature in your game!
 You might want to add a number that limits the times the user can guess. Or perhaps you want to add more messages based off of how the user is guessing? It's your project so feel free to tinker with it further, time permitting!
