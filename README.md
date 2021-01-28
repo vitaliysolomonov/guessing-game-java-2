@@ -3,7 +3,7 @@ Let's create a guessing game using *Java*, *Gradle*, and *IntelliJ IDEA*! The us
 
 
 ### Feature 1: Guess once. (With a hint.)
-Using `Prompt.present()`, write a program that asks the user to guess a number and then tells them if they were correct or not. When the user guesses we want to give them the sensation that they are getting "hotter or colder". Therefore, update the example output to reflect a hint telling users to guess higher or lower based on their guess.<br/><br/>
+Using `args` or `Prompt.present()`, write a program that asks the user to guess a number and then tells them if they were correct or not. When the user guesses we want to give them the sensation that they are getting "hotter or colder". Therefore, update the example output to reflect a hint telling users to guess higher or lower based on their guess.<br/><br/>
 **Input Example:** 4<br/>
 **Output Example:** "Not correct, try guessing a higher number!"<br/>
 <br/><br/>
