@@ -20,18 +20,21 @@ Using `while()` or a similar looping feature, continually allow the user to gues
 ### Feature 3: How Many Tries? (Count the number of attempts.)
 Once the user guesses the correct answer, let’s add a feature that tells them how many guesses it took them until they made the correct guess.
 <br/><br/>
+...<br/>
 **Input Example:** 5<br/>
 **Output Example:** "Congrats! You guessed correctly, the number was 5! It took you 3 guess(es)!"<br/>
 <br/><br/>
 ### Feature 4: History in the making. (Show previous guesses.)
 Let’s update the last feature so that instead of just the number of guesses, we let the user know all of their previous guesses before they got the right answer.
 <br/><br/>
+...<br/>
 **Input Example:** 7<br/>
 **Output Example:** "Congrats! You guessed correctly, the number was 7! Previous guess(es): 5,2,9"<br/>
 <br/><br/>
 ### Feature 5: Guess who? (Include user's name.)
 Let’s add a feature that takes in the user’s name so we can make the messages more personalized. You can either pass this as an argument (`args`) or collect it using `Prompt.present()`.
 <br/><br/>
+...<br/>
 **Input Example:** 3<br/>
 **Input Example:** Elon<br/>
 **Output Example:** "Sorry, Elon! You guessed incorrectly. Try guessing a higher number. Previous guess(es): 2"<br/>
