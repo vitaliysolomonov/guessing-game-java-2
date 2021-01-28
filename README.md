@@ -20,7 +20,7 @@ Using `while()` or a similar looping feature, continually allow the user to gues
 ### Feature 3: How Many Tries? (Count the number of attempts.)
 Once the user guesses the correct answer, let’s add a feature that tells them how many guesses it took them until they made the correct guess.
 <br/><br/>
-**Input Example:** 1<br/>
+**Input Example:** 5<br/>
 **Output Example:** "Congrats! You guessed correctly, the number was 5! It took you 3 guess(es)!"<br/>
 <br/><br/>
 ### Feature 4: History in the making. (Show previous guesses.)
