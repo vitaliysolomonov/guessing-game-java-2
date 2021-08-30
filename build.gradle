@@ -18,11 +18,10 @@ test {
     useJUnitPlatform()
 }
 
-jar {
+
+tasks.named('jar') {
     manifest {
-        attributes (
-            'Class-Path': configurations.compile.collect { it.getName().join(' ') },
-            'Main-Class': 'com.galvanize.Application'
-        )
+        attributes('Implementation-Title': project.name,
+                'Main-Class': 'com.galvanize.Application')
     }
 }
